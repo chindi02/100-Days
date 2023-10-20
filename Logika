@@ -1,0 +1,12 @@
+public class LogikaJava {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+        boolean hasil1 = a && b;
+        boolean hasil2 = a || b;
+        boolean hasil3 = !a;
+        System.out.println(hasil1);
+        System.out.println(hasil2); 
+        System.out.println(hasil3);
+    }
+}

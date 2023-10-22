@@ -1,0 +1,10 @@
+public class StringToPrimitive {
+    public static void main(String[] args) {
+        String stringAngka = "42";
+        
+        // Mengkonversi string menjadi int
+        int angka = Integer.parseInt(stringAngka);
+        
+        System.out.println("Hasil konversi: " + angka);
+    }
+}

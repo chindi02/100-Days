@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+      
+        boolean isJavaFun = true;
+
+        
+        System.out.println("Apakah Java menyenangkan? " + isJavaFun);
+    }
+}

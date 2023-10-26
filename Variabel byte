@@ -1,0 +1,6 @@
+public class ByteExample {
+    public static void main(String[] args) {
+        byte myByte = 42;
+        System.out.println("Nilai byte: " + myByte);
+    }
+}

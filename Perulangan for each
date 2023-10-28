@@ -1,0 +1,11 @@
+package chindi; 
+public class chindi {
+    public static void main(String[] args) {
+        int awal = 1;
+        int akhir = 16;
+
+        for (int i = awal; i <= akhir; i++) {
+            System.out.println("Nomor: " + i);
+        }
+    }
+}

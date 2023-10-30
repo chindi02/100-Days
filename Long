@@ -1,0 +1,6 @@
+public class ContohLong {
+    public static void main(String[] args) {
+        long angkaPanjang = 9876543210L;
+        System.out.println("Nilai dari variabel angkaPanjang adalah: " + angkaPanjang);
+    }
+}

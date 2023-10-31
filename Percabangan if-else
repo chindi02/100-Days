@@ -1,0 +1,14 @@
+public class percabangan{
+  public static void main(String[]args) {
+    int angka = 15;
+
+    if (angka > 0) {
+       System.out.println("angka positif");
+    } else {
+       System.out.println("angka bukan positif");
+    }
+  }
+}
+
+     
+ 

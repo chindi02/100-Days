@@ -1,0 +1,12 @@
+public class OperatorLogikaOr {
+    public static void main(String[] args) {
+        boolean kondisi1 = true;
+        boolean kondisi2 = false;
+
+        if (kondisi1 || kondisi2) {
+            System.out.println("Salah satu kondisi benar.");
+        } else {
+            System.out.println("Kedua kondisi salah.");
+        }
+    }
+}

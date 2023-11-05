@@ -1,0 +1,12 @@
+public class OperatorLogikaOr {
+    public static void main(String[] args) {
+        int nilai1 = 5;
+        int nilai2 = 10;
+
+        if (nilai1 > 7 || nilai2 < 8) {
+            System.out.println("Salah satu kondisi terpenuhi.");
+        } else {
+            System.out.println("Kedua kondisi tidak terpenuhi.");
+        }
+    }
+}

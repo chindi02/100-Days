@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        int angka1 = 6;
+        int angka2 = 7;
+        int hasil = angka1 - angka2;
+        System.out.println("Hasil pengurangan: " + hasil);
+    }
+}

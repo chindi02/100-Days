@@ -1,0 +1,6 @@
+public class TampilkanItem {
+    public static void main(String[] args) {
+        String namabunga = "mawar";
+        System.out.println("Item: " + namabunga);
+    }
+}

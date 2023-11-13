@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class BMICalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukkan berat badan (kg): ");
+        double beratBadan = sc.nextDouble();
+
+        System.out.print("Masukkan tinggi badan (m): ");
+        double tinggiBadan = sc.nextDouble();
+
+        double bmi = beratBadan / (tinggiBadan * tinggiBadan);
+        System.out.println("BMI Anda: " + bmi);
+    }
+}

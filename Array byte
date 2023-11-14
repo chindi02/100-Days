@@ -1,0 +1,8 @@
+public class ArrayByte {
+    public static void main(String[] args) {
+        byte[] byteArray = {10, 20, 30, 40, 50};
+        for (byte nilai : byteArray) {
+            System.out.println(nilai);
+        }
+    }
+}

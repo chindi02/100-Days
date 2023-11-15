@@ -1,0 +1,13 @@
+package latihan;
+
+import java.util.Scanner;
+
+public class ternary {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    
+    int number = sc.nextInt();
+    String output = (number > 15) ? "Positive Number" : "Negative Number";
+    System.out.println(output);
+  }
+}

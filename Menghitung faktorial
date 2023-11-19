@@ -1,0 +1,10 @@
+public class isc {
+    public static void main(String[] args) {
+        int angka = 5;
+        int faktorial = 1;
+        for (int i = 1; i <= angka; i++) {
+            faktorial *= i;
+        }
+        System.out.println("Faktorial dari " + angka + " adalah " + faktorial);
+    }
+}

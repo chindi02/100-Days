@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Power {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan basis: ");
+        double basis = input.nextDouble();
+        System.out.print("Masukkan eksponen: ");
+        double eksponen = input.nextDouble();
+        double hasil = Math.pow(basis, eksponen);
+        System.out.println("Hasil pangkat: " + hasil);
+    }
+}

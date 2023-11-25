@@ -1,0 +1,9 @@
+import java.util.Random;
+
+public class NomorAcak {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int nomorAcak = random.nextInt(101);
+        System.out.println("Nomor acak: " + nomorAcak);
+    }
+}

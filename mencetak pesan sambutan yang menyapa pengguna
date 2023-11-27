@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class InputOutputExample1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan nama Anda: ");
+        String name = scanner.nextLine();
+
+        System.out.println("Halo, " + name + "! Selamat datang di program ini.");
+    }
+}

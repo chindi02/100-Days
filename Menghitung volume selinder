@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class VolumeSilinder {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan jari-jari silinder: ");
+        double jariJari = input.nextDouble();
+        System.out.print("Masukkan tinggi silinder: ");
+        double tinggi = input.nextDouble();
+        double volume = Math.PI * jariJari * jariJari * tinggi;
+        System.out.println("Volume silinder: " + volume);
+    }
+}

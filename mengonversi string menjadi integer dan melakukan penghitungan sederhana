@@ -1,0 +1,13 @@
+package isc;
+
+public class latihan{
+
+    public static void main(String[] args) {
+        String air = "100";
+        int api = 70;
+
+        //Konversi Data String ke Integer
+        int padamkan = api - Integer.parseInt(air);
+        System.out.println("Persentase Api: " + padamkan + "%");
+    }
+}

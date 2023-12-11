@@ -1,0 +1,16 @@
+package isc;
+
+
+import java.util.Scanner;
+
+public class latihan {
+    public static void main(String[] args) {
+//menghitung jumlah kata dalam sebuah kalimat yg diinput
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan kalimat: ");
+        String kalimat = input.nextLine();
+        String[] kata = kalimat.split("\\s+");
+        int jumlahKalimat = kata.length;
+        System.out.println("jumlah Kalimat : "+jumlahKalimat);
+    }
+}

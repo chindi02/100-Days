@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class SortElements {
+    public static void main(String[] args) {
+        ArrayList<String> buah = new ArrayList<>();
+        buah.add("pisang");
+        buah.add("apel");
+        buah.add("jeruk");
+        Collections.sort(buah);
+        System.out.println(buah);
+    }
+}

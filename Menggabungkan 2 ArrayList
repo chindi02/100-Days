@@ -1,0 +1,14 @@
+package isc;
+import java.util.ArrayList;
+
+public class latihan {
+	public static void main(String[] args) {
+
+        ArrayList<String> list1 = new ArrayList<>();
+        list1.add("bunga");
+        ArrayList<String> list2 = new ArrayList<>();
+        list2.add("mawar");
+        list1.addAll(list2);
+        System.out.println(list1);
+    }
+}

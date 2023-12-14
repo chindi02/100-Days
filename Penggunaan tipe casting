@@ -1,0 +1,16 @@
+package isc; 
+public class latihan {
+    public static void main(String[] args) {
+        int angkaBulat = 8;
+        double angkaDesimal = (double) angkaBulat;
+
+        System.out.println("Angka bulat: " + angkaBulat);
+        System.out.println("Angka desimal setelah casting: " + angkaDesimal);
+
+        double angkaDesimal2 = 9.5;
+        int angkaBulat2 = (int) angkaDesimal2;
+
+        System.out.println("Angka desimal: " + angkaDesimal2);
+        System.out.println("Angka bulat setelah casting: " + angkaBulat2);
+    }
+}

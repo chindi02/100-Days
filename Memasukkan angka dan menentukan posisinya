@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class TambahElemenPosisi {
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>();
+        // Menambahkan elemen ke list
+        for (int i = 0; i < 10; i++) {
+            list.add(i);
+        }
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukkan angka untuk menambahkan elemen: ");
+        int angka = sc.nextInt();
+        System.out.println("Masukkan posisi tambahan: ");
+        int posisi = sc.nextInt();
+
+        list.add(posisi, angka);
+
+        System.out.println("Elemen yang baru: " + list.get(posisi));
+        System.out.println("Elemen yang tersisa: " + list);
+    }
+}

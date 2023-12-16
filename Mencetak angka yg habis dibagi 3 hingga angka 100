@@ -1,0 +1,11 @@
+public class latihan{
+    public static void main(String[] args) {
+        int angka = 1;
+        while (angka <= 100) {
+            if (angka % 3 == 0) {
+                System.out.println(angka);
+            }
+            angka++;
+        }
+    }
+}

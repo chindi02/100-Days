@@ -1,0 +1,13 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        HashMap<String, String> map = new HashMap<>();
+        map.put("Nama", "cipa");
+        map.put("Usia", "15");
+        map.put("Alamat", "Jl. pelangi 02");
+        System.out.println("Isi HashMap: " + map);
+    }
+}

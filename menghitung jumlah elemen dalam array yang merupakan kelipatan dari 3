@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] array = {1, 2, 8, 9, 4, 16, 3, 10};
+        int jumlahKelipatan3 = 0;
+        for (int num : array) {
+            if (num % 3 == 0) {
+                jumlahKelipatan3 += num;
+            }
+        }
+        System.out.println("Jumlah elemen yang memiliki nilai kelipatan dari 3: " + jumlahKelipatan3);
+    }
+}

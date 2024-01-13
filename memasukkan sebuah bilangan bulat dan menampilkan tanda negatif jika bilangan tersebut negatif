@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class latihan {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan sebuah bilangan bulat: ");
+        int bilangan = sc.nextInt();
+
+        System.out.println("Bilangan dalam bentuk desimal: " + Math.abs(bilangan));
+        if (bilangan < 0) {
+            System.out.println("Tanda negatif: -");
+        }
+    }
+}
